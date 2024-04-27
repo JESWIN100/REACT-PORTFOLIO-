@@ -1,0 +1,24 @@
+.shadow-effect{
+    transition: all 0.5s;
+    
+    
+    }
+    .shadow-effect:hover{
+        border: #e0f780 solid 7px;
+        transition: all 0.4s;
+    }
+    
+    .iconbox svg{
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 32px;
+      background-color: #225f69;
+        color: #fff;
+        
+    }
+    .bg-base{
+        background-color: #0d535e;
+    }

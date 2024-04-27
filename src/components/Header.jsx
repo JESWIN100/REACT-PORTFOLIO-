@@ -1,7 +1,8 @@
+import { Button } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+// import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from 'react-router-dom';
 
 function Header() {
@@ -15,13 +16,12 @@ function Header() {
           <Nav className="me-auto">
             <Nav.Link as={Link} to="/home">Home</Nav.Link>
             <Nav.Link as={Link} to="/about">About</Nav.Link>
-            <Nav.Link as={Link} to="/services">Services</Nav.Link>
-            <Nav.Link as={Link} to="/work">Work</Nav.Link>
+            <Nav.Link as={Link} to="/project">Project</Nav.Link>
             <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
             
           </Nav>
           <Nav className="ms-auto">
-          <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+          {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
@@ -31,9 +31,9 @@ function Header() {
               <NavDropdown.Item href="#action/3.4">
                 Separated link
               </NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link as={Link} to="/login">Login</Nav.Link>
-
+            </NavDropdown> */}
+            {/* <Nav.Link as={Link} to="/Signup">Login</Nav.Link> */}
+            <Button as={Link} to="/Signup" variant="success">Login</Button>{' '}
           </Nav>
         </Navbar.Collapse>
       </Container>

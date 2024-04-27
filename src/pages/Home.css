@@ -19,18 +19,29 @@
     background-repeat: no-repeat;
 }
 
-.main-head {
+ .main-head {
     position: absolute;
     margin-top: -34%;
+} 
+.span{
+    color: rgb(210, 210, 43);
 }
 
 
 
-
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 783px) {
     .main-head {
         position: relative;
-        bottom: 765%;
-        color: white;
+        bottom: 136%;
+        font-size: 10px;
     }
+
 }
+
+@media screen and (max-width: 768px) {
+    .main-head {
+        position: relative;
+        bottom: 136%;
+        font-size: 10px;
+    }
+} */
