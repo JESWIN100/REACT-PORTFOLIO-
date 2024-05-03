@@ -25,8 +25,9 @@ function Project() {
             <Card.Text className='text-secondary'>
               Facebook Messenger is an app for chatting, calling, and sharing with friends.
             </Card.Text>
-            <Button href={twitter} variant="primary">Go somewhere</Button>
+            <Button href='https://jeswin100.github.io/messanger/' variant="primary">Go somewhere</Button>
           </Card.Body>
+
         </Card> <Card style={{ margin: '10px' }}>
           <Card.Img variant="top" src={twitter} />
           <Card.Body>

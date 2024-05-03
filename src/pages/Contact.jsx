@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Button, Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
 import "./Contact.css"
 function Contact() {
 
@@ -104,7 +104,7 @@ console.log("contactformdata--------------------->",contactFormData);
     <Container>
       <Row className = 'justify-content-center'>
         <Col md={6} >
-          <div className='shadow bg-white p-4 m-4 '>
+          <div className='shadow bg-white p-4 m-4'>
             <form className='form-container my-4' onSubmit={handleSubmit}>
               <input type="text" name='fullname' placeholder='Please enter fullname' onChange={onChangeHandler} />
                {/* nullish polishing  React states 02-04-2024 55:00 */}
@@ -116,7 +116,7 @@ console.log("contactformdata--------------------->",contactFormData);
               <span className='error'>{errors?.phone?? ''}</span>
               <textarea type="text" name="message" rows={5} placeholder='Please enter message' onChange={onChangeHandler}></textarea>
               <span className='error'>{errors?.message?? ''}</span>
-              <Button variant="primary">Submit</Button>{' '}
+              <button>Send Message</button>
             </form>
 
           </div>
